@@ -1,0 +1,147 @@
+.use_con{
+	width: 100%;
+	
+	
+}
+.use_con .use_body{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.use_con .use_body h1{
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0;
+}
+.use_con .use_body .tt{
+	margin: 0 auto;
+	text-align: center;
+}
+.use_con .use_body ul li{
+    display: inline-block;
+	padding: 0px 50px 20px;
+	font-size: 20px;
+	
+}	
+.use_con .use_body ul li:visited,.use_con .use_body ul li.on{
+	color: #666;
+	border-bottom: 4px solid #F54D3E;
+}
+
+.use_con .use_body ul li:visited a,.use_con .use_body ul li.on a{
+	color: #F54D3E;
+}
+.use_con .use_body ul li:visited,.use_con .use_body ul li.bb{
+   color: #A3A3A3;
+	
+}
+.use_con .use_body ul li:visited a,.use_con .use_body ul li.bb a{
+    color: #A3A3A3;
+}	
+hr{
+	color: #CECFCF;
+	border: 1px solid;
+	margin-bottom: 8px;
+
+}
+
+.g_con {
+	width: 100%;
+}
+
+.g_con_gb {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.g_con .g_body {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.g_con .g_body ul {
+	position: relative;
+}
+
+.g_con .g_body ul li {
+	width: 230px;
+	float: left;
+	margin-right: 24px;
+	border: 1px solid#e6e9e9;
+	border-radius: 5px;
+	/*设置圆角*/
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.g_con .g_body ul li img {
+	width: 230px;
+	transition: .1s transform;
+	transform: translateZ(0);
+}
+
+.g_con .g_body ul li:hover img {
+	transform: scale(1.1);
+}
+
+.g_con .g_body ul li:nth-child(4n+4) {
+	margin-right: 0;
+}
+
+.g_con .g_body ul li h3 {
+	font-size: 18px;
+	color: #333;
+}
+
+.g_con .g_body ul li>div {
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.g_con .g_body ul li .num1 a {
+	display: inline-block;
+	padding: 3px 10px;
+	border: 1px solid #fe5341;
+	color: #fe5341;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.g_con .g_body ul li .num2 a {
+	display: inline-block;
+	padding: 3px 10px;
+	border: 1px solid greenyellow;
+	color: greenyellow;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.g_con .g_body ul li .num3 a {
+	display: inline-block;
+	padding: 3px 10px;
+	border: 1px solid #A3A3A3;
+	color: #A3A3A3;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.g_con .g_body ul li p {
+	margin: 8px 0 !important;
+}
+
+.g_con .g_body ul li .shiyong span {
+	color: #fe5341;
+	margin-right: 10px;
+}
+
+.g_con .g_body ul li .time {
+	font-size: 14px;
+	color: #fe5341;
+}
+.g_con .g_body ul li .ming {
+	font-size: 14px;
+	color: greenyellow;
+}
+.g_con .g_body ul li .shu {
+	font-size: 14px;
+	color: #A3A3A3;
+}

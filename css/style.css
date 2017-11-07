@@ -1,0 +1,149 @@
+.h_con .h_body,
+.f_con .f_body {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*头部 begin*/
+
+.h_con {
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #cecfcf;
+}
+
+.h_con .h_body {
+	height: 100px;
+}
+
+.h_con .h_body ul li {
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 20px;
+	color: #333;
+}
+
+.h_con .h_body .logo {
+	line-height: 80px;
+}
+
+.h_con .h_body .logo img {
+	width: 150px;
+}
+
+.h_con .h_body .active a {
+	color: #fe5341;
+}
+
+.h_con .h_body li a:hover {
+	color: #fe5341;
+}
+
+.h_con .h_body .link {
+	position: absolute;
+	right: 0;
+	height: 80px;
+	line-height: 80px;
+}
+
+
+/*伪类设置*/
+
+.h_con .h_body .link a:first-child {
+	background: url(../img/search.png) no-repeat;
+	width: 24px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: middle;
+	/*垂直方向居中*/
+	margin-right: 10px;
+	transition: transform 0.8s;
+	/*过渡放大，使他缓缓的放大 。不知道是哪个属性时，也可以写all，对所有属性进行过渡*/
+}
+
+.h_con .h_body .link a:first-child:hover {
+	transform: scale(1.2);
+	/*放大图标1.2倍*  */
+}
+
+.h_con .h_body .link a:last-child {
+	border: 1px solid #fe5341;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.h_con .h_body .link a:last-child:hover {
+	background: #fe5341;
+	color: #fff;
+}
+
+
+/*头部end*/
+
+
+
+
+/*底部begin*/
+
+.f_con {
+	width: 100%;
+	background-color: #505050;
+	color: #a3a3a3;
+}
+
+
+}
+.f_con .f_body {}
+.f_con .f_body .qrcode {}
+.f_con .f_body .qrcode,
+.f_con .f_body ul {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.f_con .f_body ul {
+	margin-left: 20px;
+}
+.f_con .f_body ul li {
+	size: 14px;
+	max-width: 140px;
+	margin-bottom: 20px;
+}
+.f_con .f_body ul li p {
+	font-size: 10px;
+}
+.f_con .f_body ul:first-child {
+	font-size: 18px;
+	color: #fff;
+}
+.f_con .f_body .c_right {
+	clear: both;
+	text-align: center;
+	padding: 50px 0 20px;
+	font-size: 12px;
+}
+
+/*底部end*/
+
+/*返回顶部*/
+.backtop {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 100px;
+	bottom: 50px;
+	border-radius: 10px;
+	background: url(../img/back.png) no-repeat;
+	background-position: center;
+	background-color: #d0d0d0;
+	cursor: pointer;
+}
+.backtop:hover{
+background-color: #bebebe;
+}
+
+/*返回顶部*/

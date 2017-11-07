@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		div{
+			width: 600px;
+			height: 600px;
+			background: blueviolet;
+        position: relative;
+		}
+		div a{
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			background: blanchedalmond;
+			color: #f00;
+			float: left;
+			position: absolute;
+			
+		}
+		div a:nth-child(3){
+			margin-top:400px;
+			margin-left: 400px;
+			
+		}
+		div a:nth-child(2){
+			top: 0px;
+			right: 0px;
+		}
+		div a:nth-child(4){
+			margin-top:400px ;
+			bottom: 0px;
+		}
+		div a:nth-child(5){
+			margin-top:200px ;
+			left: 200px;
+		}
+		/*
+		 * postion
+		 * 标准文档流：从上到下。从左往右布局方式
+		 * static:标准文档流定位，只能用margin来偏移
+		 * relative:标准文档流布局，可以使用
+		 * margin和top，left，righ，bottom来偏移定位
+		 * absolute：脱离标志文档流布局（以父类非static，来进行定位，如果没有父元素为非static的定位，基于浏览器进行布局），可以使用
+		 *  margin和top，left，righ，bottom来偏移定位
+		 * fixed:脱离标志文档流布局,永远基于浏览器布局，
+		 * 可以使用 margin和top，left，righ，bottom来偏移定位
+		 * 
+		 * a[a href=""]{$}*n 一下写多个a链接 /ul>li*n一下写多个ul，li
+		 * */
+		
+		</style>
+	</head>
+	<body>
+		<div>
+			<a href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<a href="">4</a>
+			<a href="">5</a>
+			
+		</div>
+		
+	</body>
+</html>
